@@ -1,0 +1,64 @@
+body{
+  background-image:url("img/love.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  max-width:360px;
+  margin: 0 auto;
+  padding: 20px;
+}
+ .description{
+  font-size: 37px;
+  color: #57FFF2;
+  text-shadow: black  1px 0 10px;
+}
+#message-container {
+  font-weight: 600;
+  font-size: 26px;
+  border-radius: 15px;
+  background-color: white;
+  width: 100%;
+  height: 60vh;
+  border: 6px solid #FF66BE;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+#message-form input,
+#message-form button {
+  margin-bottom: 10px;
+}
+input{     
+  max-width: 100vh;
+  width:203px;
+  background-color:white ;
+  padding: 15px 45px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 10% auto;
+  color: black;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+button{
+  background-image: linear-gradient(to right, #00C9FF 0%, #92FE9D  51%, #00C9FF  100%);
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+} 
+button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
